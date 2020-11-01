@@ -1,0 +1,36 @@
+{
+  "name": "@geolonia/view-with-google-plugin",
+  "version": "0.0.4",
+  "main": "dist/view-with-google-geolonia-plugin.min.js",
+  "description": "Geolonia Embed API plugin to add view with Google control.",
+  "keywords": [
+    "map",
+    "location",
+    "plugin",
+    "google"
+  ],
+  "author": "kamataryo <kamataryo@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist ./docs && webpack -p && mkdir -p ./dist && cp ./docs/*.js ./dist/ && cp ./docs/*.js.map ./dist/",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@geolonia/embed": "^1.13.0",
+    "@types/copy-webpack-plugin": "^6.0.0",
+    "@types/mapbox-gl": "^1.12.3",
+    "@types/webpack": "^4.41.22",
+    "@types/webpack-dev-server": "^3.11.0",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^8.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {},
+  "repository": "git@github.com:geolonia/view-with-google-plugin.git"
+}
