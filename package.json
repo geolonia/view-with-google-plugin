@@ -1,6 +1,6 @@
 {
   "name": "@geolonia/view-with-google-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/view-with-google-geolonia-plugin.min.js",
   "description": "Geolonia Embed API plugin to add view with Google control.",
   "keywords": [
